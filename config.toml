@@ -36,7 +36,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "finding my place."
+ # homeSubtitle = "I'm not a brand, please don't expect one-liner intros"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -80,26 +80,31 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [menu]
 
   [[menu.main]]
-    name = "Call me Garg"
-    url = "about-hugo/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Posts"
+    name = "blog"
     url = "posts/"
     weight = 2
 
   [[menu.main]]
-    name = "Coding"
-    url = "about-hugo/"
+    name = "git bits"
+    url = "coding/"
     weight = 3
 
   [[menu.main]]
-    name = "Meet my pups"
-    url = "about-hugo/"
+    name = "sober stats"
+    url = "coding/"
+    weight = 3
+
+  [[menu.main]]
+    name = "my pups"
+    url = "pups/"
     weight = 5
 
   [[menu.main]]
-    name = "Clayey"
-    url = "about-hugo/"
+    name = "clay play"
+    url = "clay/"
     weight = 6
+
+  [[menu.main]]
+    name = "who?"
+    url = "about/"
+    weight = 1
