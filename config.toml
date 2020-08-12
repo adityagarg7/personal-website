@@ -80,26 +80,26 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [menu]
 
   [[menu.main]]
-    name = "call me Garg"
+    name = "Call me Garg"
     url = "about-hugo/"
     weight = 1
 
   [[menu.main]]
-    name = "posts"
+    name = "Posts"
     url = "posts/"
     weight = 2
 
   [[menu.main]]
-    name = "coding"
+    name = "Coding"
     url = "about-hugo/"
     weight = 3
 
   [[menu.main]]
-    name = "meet my pups"
+    name = "Meet my pups"
     url = "about-hugo/"
     weight = 5
 
   [[menu.main]]
-    name = "clayey"
+    name = "Clayey"
     url = "about-hugo/"
     weight = 6
