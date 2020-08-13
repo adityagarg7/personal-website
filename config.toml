@@ -1,7 +1,7 @@
 baseURL = "https://adityagarg.me/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Aditya Garg"
+title = "GARG"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -80,31 +80,31 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [menu]
 
   [[menu.main]]
-    name = "blog"
+    name = "Blog"
     url = "posts/"
     weight = 2
 
   [[menu.main]]
-    name = "git bits"
+    name = "Projects"
     url = "coding/"
     weight = 3
 
-  [[menu.main]]
-    name = "sober stats"
-    url = "coding/"
-    weight = 3
+  # [[menu.main]]
+  #   name = "sober stats"
+  #   url = "coding/"
+  #   weight = 3
+  #
+  # [[menu.main]]
+  #   name = "my pups"
+  #   url = "pups/"
+  #   weight = 5
+  #
+  # [[menu.main]]
+  #   name = "clay play"
+  #   url = "clay/"
+  #   weight = 6
 
   [[menu.main]]
-    name = "my pups"
-    url = "pups/"
-    weight = 5
-
-  [[menu.main]]
-    name = "clay play"
-    url = "clay/"
-    weight = 6
-
-  [[menu.main]]
-    name = "who?"
+    name = "Who?"
     url = "about/"
     weight = 1
