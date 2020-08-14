@@ -21,6 +21,16 @@ $blacktint: #323232;
 
 }
 
+@font-face {
+    font-family: "rimouski_sb";
+    src: url("/fonts/rimouski_sb/rimouski_sb-webfont.woff2") format("woff2"),
+         url("/fonts/rimouski_sb/rimouski_sb-webfont.woff") format("woff"),
+         url("/fonts/rimouski_sb/rimouski_sb-webfont.ttf")  format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 $fonts: "Quicksand", Verdana, "Verdana Ref", "Segoe UI", Candara, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 $code-fonts: Consolas, "Andale Mono WT", "Andale Mono", Menlo, Monaco, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, "YaHei Consolas Hybrid", monospace, "Segoe UI Emoji", "PingFang SC", "Microsoft YaHei";
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');

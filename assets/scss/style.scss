@@ -398,9 +398,9 @@ p.img-404 {
 
 
 #home-title {
-  font-family: "rivieraregular", $fonts;
+  font-family: "rimouski_sb", "rivieraregular", $fonts;
   margin: 0;
-  font-size: 5em;
+  font-size: 6.5em;
   text-align: center;
 
 }
@@ -408,7 +408,7 @@ p.img-404 {
 #home-subtitle {
   margin-top: 0;
   text-align: center;
-  line-height: normal;
+  //line-height: normal;
   font-style: normal;
   opacity: .9
 }
