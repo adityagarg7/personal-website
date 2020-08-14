@@ -3,13 +3,6 @@
 @import "syntax.scss";
 @import "animate.scss";
 
-@font-face {
-    font-family: 'Riviera';
-    src: url('Riviera-Regular.woff2') format('woff2'),
-         url('Riviera-Regular.woff') format('woff'),
-         url('Riviera-Regular.ttf') format('truetype');
-}
-
 /* Webkit Scrollbar Customize */
 ::-webkit-scrollbar {
   width: 8px;
@@ -405,7 +398,7 @@ p.img-404 {
 
 
 #home-title {
-  font-family: 'Riviera', $fonts;
+  font-family: "rivieraregular", $fonts;
   margin: 0;
   font-size: 5em;
   text-align: center;
