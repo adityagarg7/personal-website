@@ -7,7 +7,7 @@ tags:
   - demo
   - image
 ---
-<!--
+
 Hugo has `figure` shortcode built in, so you can easily add figcaptions or hyperlink rel attributes to images. Documentations can be found here:
 
 https://gohugo.io/content-management/shortcodes/#figure
@@ -19,7 +19,7 @@ This theme has 3 CSS classes made for figure elements:
 * `right`: images will float to the right.
 
 If a figure has no class set, the image will behave just like a normal markdown image: `![]()`.
-
+<!--
 Here's some examples, please be aware that these styles only take effect when the page width is over 1300px.
 
 {{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-normal (without any classes)" >}}
