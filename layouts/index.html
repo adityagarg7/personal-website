@@ -15,9 +15,11 @@
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
 			<h1 id="home-title" class="ml3">{{ .Site.Title }}</h1>
-            <!-- animation for the home title from https://tobiasahlin.com/moving-letters/#3 -->
+            <!-- Home title fade-in animation code src- https://tobiasahlin.com/moving-letters/#3 STARTS
+             class="ml3" is added to the <h1> tag above for the purpose of this animation-->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <!-- animation code ENDS -->
 			{{- with .Site.Params.homeSubtitle }}
 			<p id="home-subtitle">{{.}}</p>
 			{{- end }}
