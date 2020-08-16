@@ -32,6 +32,7 @@ select,
 textarea {
   color: $text;
   font-family: $fonts;
+  font-size: 1.2em;
 }
 
 pre,
@@ -43,7 +44,7 @@ pre tt {
 pre {
   padding: .7em 1.1em;
   overflow: auto;
-  font-size: .9em;
+  font-size: 0.9em;
   line-height: 1.5;
   letter-spacing: normal;
   white-space: pre;
@@ -398,10 +399,11 @@ p.img-404 {
 
 
 #home-title {
-  font-family: "rivieraregular", "rimouski_sb", $fonts;
+  font-family: "rimouski_sb", "rivieraregular", $fonts;
   margin: 0;
   font-size: 6.5em;
   text-align: center;
+  line-height: 1em;
 
 }
 
@@ -493,7 +495,7 @@ p.img-404 {
 .bg-img {
   width: 100vw;
   height: 100vh;
-  opacity: .03;
+  opacity: .2;
   z-index: -1;
   position: fixed;
   top: 0;
@@ -577,7 +579,14 @@ hr.post-end {
     height: auto;
     margin: auto;
     border-radius: 4px;
+
+      .profile-pic {
+          max-width: 25%;
+      }
   }
+
+
+
 
   ul,
   ol {
@@ -841,6 +850,11 @@ a.footnote-ref {
 
   figure.right {
     max-width: 75%;
+    margin-right: -320px;
+  }
+
+  content.profile-pic.right {
+    max-width: 5%;
     margin-right: -320px;
   }
 
