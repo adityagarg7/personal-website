@@ -241,6 +241,10 @@ table {
   padding: .5em 0;
   font-size: 1.2rem;
 
+  .hdr-left {
+      font-family: "rimouski_sb";
+  }
+
   .site-branding {
     display: inline-block;
     margin-right: .8em;
@@ -428,6 +432,7 @@ p.img-404 {
 #home-nav {
   opacity: .5;
   font-size: 1.2em;
+  font-family: rimouski_sb;
   a {
     display: block;
     text-align: center;
