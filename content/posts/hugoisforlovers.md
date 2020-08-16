@@ -1,15 +1,15 @@
 +++
-title = "Getting Started with Hugo"
+title = "Place Holder"
 tags = [
     "go",
     "golang",
     "hugo",
     "development",
 ]
-date = "2014-04-02"
+date = "2018-04-02"
 toc = true
 +++
-
+<!--
 ## Step 1. Install Hugo
 
 Go to [Hugo releases](https://github.com/spf13/hugo/releases) and download the
@@ -81,4 +81,4 @@ Having nearly instant feedback enables you to have your creativity flow without 
 
 ## Step 4. Have fun
 
-The best way to learn something is to play with it.
+The best way to learn something is to play with it. -->

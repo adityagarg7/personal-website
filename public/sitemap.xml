@@ -4,32 +4,47 @@
   
   <url>
     <loc>https://adityagarg.me/tags/demo/</loc>
-    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
+    <lastmod>2020-01-24T12:29:41+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityagarg.me/</loc>
-    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
+    <lastmod>2020-01-24T12:29:41+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityagarg.me/tags/image/</loc>
-    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityagarg.me/posts/</loc>
-    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityagarg.me/tags/</loc>
-    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
+    <lastmod>2020-01-24T12:29:41+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityagarg.me/posts/the-figure-shortcode/</loc>
-    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
+    <lastmod>2020-01-24T12:29:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityagarg.me/posts/</loc>
+    <lastmod>2020-01-24T12:29:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityagarg.me/tags/</loc>
+    <lastmod>2020-01-24T12:29:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityagarg.me/posts/typography/</loc>
+    <lastmod>2019-09-29T11:36:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityagarg.me/tags/typography/</loc>
+    <lastmod>2019-09-29T11:36:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityagarg.me/posts/migrate-from-jekyll/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,68 +53,52 @@
   </url>
   
   <url>
-    <loc>https://adityagarg.me/tags/typography/</loc>
-    <lastmod>2018-09-29T11:36:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityagarg.me/posts/typography/</loc>
-    <lastmod>2018-09-29T11:36:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityagarg.me/about-aditya/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://adityagarg.me/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityagarg.me/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityagarg.me/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityagarg.me/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityagarg.me/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityagarg.me/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityagarg.me/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityagarg.me/posts/goisforlovers/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityagarg.me/posts/hugoisforlovers/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityagarg.me/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityagarg.me/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://adityagarg.me/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>https://adityagarg.me/about-aditya/</loc>
   </url>
   
 </urlset>

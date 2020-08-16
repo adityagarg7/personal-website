@@ -1,10 +1,10 @@
 ---
 author: "Aditya Garg"
-date: 2014-09-28
-title: Blogs on this website are not uploaded yet , please view again later for updates.w
+date: 2018-09-28
+title: Place holder
 ---
 
-## Introduction
+<!-- ## Introduction
 
 This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
 
@@ -1139,4 +1139,4 @@ Note that we removed the date logic from the default template and put it in the 
 
 ### Don't Repeat Yourself
 
-DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you're figuring that out, accept that you'll be doing some refactoring. Hugo makes that easy and fast, so it's okay to delay splitting up a template.
+DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you're figuring that out, accept that you'll be doing some refactoring. Hugo makes that easy and fast, so it's okay to delay splitting up a template. -->

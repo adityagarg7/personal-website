@@ -1,5 +1,5 @@
 +++
-title = "(Hu)go Template Primer"
+title = "Place Holder"
 tags = [
     "go",
     "golang",
@@ -7,11 +7,11 @@ tags = [
     "themes",
     "development",
 ]
-date = "2014-04-02"
+date = "2018-04-02"
 toc = true
 +++
 
-Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for
+<!-- Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
@@ -336,4 +336,4 @@ so, such as in this example:
 
 
 [go]: https://golang.org/
-[gohtmltemplate]: https://golang.org/pkg/html/template/
+[gohtmltemplate]: https://golang.org/pkg/html/template/ -->

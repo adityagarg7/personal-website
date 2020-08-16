@@ -1,10 +1,10 @@
 ---
-date: 2014-03-10
-title: Migrate to Hugo from Jekyll
+date: 2019-03-10
+title: Place Holder
 toc: true
 ---
 
-## Move static content to `static`
+<!-- ## Move static content to `static`
 Jekyll has a rule that any directory not starting with `_` will be copied as-is to the `_site` output. Hugo keeps all static content under `static`. You should therefore move it all there.
 With Jekyll, something that looked like
 
@@ -109,9 +109,9 @@ Jekyll's plugin:
     Liquid::Template.register_tag('image', Jekyll::ImageTag)
 
 is written as this Hugo shortcode:
-
+ -->
     <!-- image -->
-    <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
+    <!-- <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
         {{ with .Get "link"}}<a href="{{.}}">{{ end }}
             <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />
         {{ if .Get "link"}}</a>{{ end }}
@@ -126,10 +126,10 @@ is written as this Hugo shortcode:
             </p> {{ end }}
         </figcaption>
         {{ end }}
-    </figure>
+    </figure> -->
     <!-- image -->
 
-### Usage
+<!-- ### Usage
 I simply changed:
 
     {% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg "One of my favorite touristy-type photos. I secretly waited for the good light while we were "having fun" and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing." ->http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
@@ -148,4 +148,4 @@ Depending on the amount of customization that was done with each post with Jekyl
 You'll want to remove the Jekyll configuration at this point. If you have anything else that isn't used, delete it.
 
 ## A practical example in a diff
-[Hey, it's Alex](http://heyitsalex.net/) was migrated in less than a _father-with-kids day_ from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this [diff](https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610).
+[Hey, it's Alex](http://heyitsalex.net/) was migrated in less than a _father-with-kids day_ from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this [diff](https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610). -->

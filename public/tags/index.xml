@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 24 Dec 2018 12:29:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 12:29:41 +0800</lastBuildDate>
     
 	<atom:link href="https://adityagarg.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Demo</title>
       <link>https://adityagarg.me/tags/demo/</link>
-      <pubDate>Mon, 24 Dec 2018 12:29:41 +0800</pubDate>
+      <pubDate>Fri, 24 Jan 2020 12:29:41 +0800</pubDate>
       
       <guid>https://adityagarg.me/tags/demo/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Image</title>
       <link>https://adityagarg.me/tags/image/</link>
-      <pubDate>Mon, 24 Dec 2018 12:29:41 +0800</pubDate>
+      <pubDate>Fri, 24 Jan 2020 12:29:41 +0800</pubDate>
       
       <guid>https://adityagarg.me/tags/image/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Typography</title>
       <link>https://adityagarg.me/tags/typography/</link>
-      <pubDate>Sat, 29 Sep 2018 11:36:33 +0800</pubDate>
+      <pubDate>Sun, 29 Sep 2019 11:36:33 +0800</pubDate>
       
       <guid>https://adityagarg.me/tags/typography/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>development</title>
       <link>https://adityagarg.me/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://adityagarg.me/tags/development/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>go</title>
       <link>https://adityagarg.me/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://adityagarg.me/tags/go/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>golang</title>
       <link>https://adityagarg.me/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://adityagarg.me/tags/golang/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>hugo</title>
       <link>https://adityagarg.me/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://adityagarg.me/tags/hugo/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>templates</title>
       <link>https://adityagarg.me/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://adityagarg.me/tags/templates/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>themes</title>
       <link>https://adityagarg.me/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://adityagarg.me/tags/themes/</guid>
       <description></description>
