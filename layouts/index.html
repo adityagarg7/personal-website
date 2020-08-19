@@ -6,6 +6,19 @@
 		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
 		{{- end -}}
 	{{- end -}}
+
+    <!-- Home title fade-in animation code src- https://tobiasahlin.com/moving-letters/#3 STARTS
+         class="ml3" is added to the <h1 id="home-title"> below for the same purpose-->
+         <!-- Animation is currently hidden due to the alert message -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
+    <!-- fade-in animation code ENDS -->
+
+    <!-- Alert box code src- https://sweetalert2.github.io/ STARTS-->
+    <link rel="stylesheet" href="@sweetalert2/theme-dark/dark.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <!-- Alert box code ENDS -->
+
 {{ end }}
 
 {{ define "main" }}
@@ -17,12 +30,6 @@
             <a href="{{ .Site.BaseURL }}">
 			<h1 id="home-title" class="ml3">{{ .Site.Title }}</h1>
             </a>
-            <!-- Home title fade-in animation code src- https://tobiasahlin.com/moving-letters/#3 STARTS
-             class="ml3" is added to the <h1> tag above for the purpose of this animation-->
-            <!-- Not using jquery yet. line below is redundant -->
-            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-            <!-- animation code ENDS -->
 			{{- with .Site.Params.homeSubtitle }}
 			<p id="home-subtitle">{{.}}</p>
 			{{- end }}
