@@ -49,7 +49,7 @@ if (-1 === document.cookie.indexOf('returning=true')) {
       cancelButtonText: 'Close'
   }).then((result) => {
   if (result.value) {
-      window.open('mailto:aditya@adityagarg.me?subject=Hey, I would like you to share updates on your website&body=');
+      window.location.href ='mailto:aditya@adityagarg.me?subject=Hey, I would like you to share updates on your website&body=';
       let timerInterval
         Swal.fire({
           title: '<span style="color:#e8eef2">That is very thoughtful of you!</span>',
