@@ -33,6 +33,8 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
 //     delay: (el, i) => 150 * (i+1)
 //   })
 // Fade animation for home page title (code ends)
+
+// Alert Box Code STARTS; documentation - https://sweetalert2.github.io/
 if (-1 === document.cookie.indexOf('returning=true')) {
 
     Swal.fire({
@@ -40,12 +42,32 @@ if (-1 === document.cookie.indexOf('returning=true')) {
       imageUrl: '/work-in-progress.png',
       imageHeight: 175,
       background: "#323232",
-      html: '<span style="color:#e8eef2">"Work in progress, my friend" This site is currently void of content, but won\'t be that ways forever. Write to me that you expect to see nice things here. Your expressed expectation will keep me accountable. Anyways, I hope to see ya again. Have a nice day!<span>',
+      html: '<span style="color:#e8eef2">"Work in progress, my friend" This site is currently void of content, but won\'t be that ways forever. Write to me that you expect to see nice things here. Your expressed expectation will keep me accountable. I hope to see ya again. Have a nice day!<span>',
       icon: 'info',
-      confirmButtonText: 'Cool',
-  });
+      confirmButtonText: 'Sweet.. Lets ping Garg',
+      showCancelButton: true,
+      cancelButtonText: 'Close'
+  }).then((result) => {
+  if (result.value) {
+      window.open('mailto:aditya@adityagarg.me?subject=Hey, I would like you to share updates on your website&body=');
+      let timerInterval
+        Swal.fire({
+          title: '<span style="color:#e8eef2">That is very thoughtful of you!</span>',
+          html: '<span style="color:#e8eef2">Thank you very much.</span>',
+          timer: 5000,
+          imageUrl: '/star-eyes-emoji.png',
+          imageHeight: 100,
+          background: "#323232",
+          timerProgressBar: true,
+          onClose: () => {
+            clearInterval(timerInterval)
+          }
+        })
+  }
+});
   document.cookie = 'returning=true';
 }
+// Alert Box Code ENDS; documentation - https://sweetalert2.github.io/
 
 // //typeWriter animation for homepage title (code begins) (https://codepen.io/Danielgroen/pen/VeRPOq)
 // document.addEventListener('DOMContentLoaded',function(event){
