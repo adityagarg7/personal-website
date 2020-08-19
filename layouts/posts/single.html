@@ -47,7 +47,7 @@
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="{{ .Site.Params.gitUrl -}}{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a> @ {{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}</p>
 				{{- end }}
 			</footer>
-            <!-- </article> original position -->
+            <!-- </article> tag's original position -->
 		{{- if .Params.toc }}
 		<aside id="toc">
 			<div class="toc-title">{{ i18n "tableOfContents" }}</div>
@@ -71,8 +71,9 @@
 		</div> -->
         <!--Comment support powered by commento
         Note that the article element was moved such that commento's div section could inherit its width-->
-        <script defer src="http://localhost:8080/js/commento.js"
-        data-css-override="/css/commento.css"></script>
+        <script defer src="http://localhost:8080/js/commento.js"></script>
+        <!-- data-css-override="/css/commento.css" -->
+        <!-- Add data-css-override parameter to <script> tag above to override default commento default styling  -->
         <div id="commento"></div>
     </article>
 	</main>
