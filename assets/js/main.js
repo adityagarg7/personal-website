@@ -52,16 +52,12 @@ if (-1 === document.cookie.indexOf('returning=true')) {
       window.location.href ='mailto:aditya@adityagarg.me?subject=Hey, I would like you to share updates on your website&body=';
       let timerInterval
         Swal.fire({
-          title: '<span style="color:#e8eef2">That is very thoughtful of you!</span>',
-          html: '<span style="color:#e8eef2">Thank you very much.</span>',
-          timer: 5000,
+          title: '<span style="color:#e8eef2">You are awesome!</span>',
+          html: '<span style="color:#e8eef2">Thank you very much for that thoughtful gesture.</span>',
           imageUrl: '/star-eyes-emoji.png',
           imageHeight: 100,
           background: "#323232",
-          timerProgressBar: true,
-          onClose: () => {
-            clearInterval(timerInterval)
-          }
+          confirmButtonText: "Cool"
         })
   }
 });
