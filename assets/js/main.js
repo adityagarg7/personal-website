@@ -22,15 +22,30 @@ const throttle = (callback, limit) => {
 var textWrapper = document.querySelector('.ml3');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: false})
-  .add({
-    targets: '.ml3 .letter',
-    opacity: [0,1],
-    easing: "easeInOutQuad",
-    duration: 1500,
-    delay: (el, i) => 150 * (i+1)
-  })
+// Animation is hidden due to the alert message
+// anime.timeline({loop: false})
+//   .add({
+//     targets: '.ml3 .letter',
+//     opacity: [0,1],
+//     easing: "easeInOutQuad",
+//     duration: 1500
+//     duration:
+//     delay: (el, i) => 150 * (i+1)
+//   })
 // Fade animation for home page title (code ends)
+if (-1 === document.cookie.indexOf('returning=true')) {
+
+    Swal.fire({
+      title: '<span style="color:#e8eef2">Thank you for visiting!</span>',
+      imageUrl: '/work-in-progress.png',
+      imageHeight: 175,
+      background: "#323232",
+      html: '<span style="color:#e8eef2">"Work in progress, my friend" This site is currently void of content, but won\'t be that ways forever. Write to me that you expect to see nice things here. Your expressed expectation will keep me accountable. Anyways, I hope to see ya again. Have a nice day!<span>',
+      icon: 'info',
+      confirmButtonText: 'Cool',
+  });
+  document.cookie = 'returning=true';
+}
 
 // //typeWriter animation for homepage title (code begins) (https://codepen.io/Danielgroen/pen/VeRPOq)
 // document.addEventListener('DOMContentLoaded',function(event){
