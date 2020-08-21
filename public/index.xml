@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>About me.</title>
+      <link>https://adityagarg.me/about-aditya/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityagarg.me/about-aditya/</guid>
+      <description>Imagine a forty-eight inch white stretched canvas. Grainy in texture and void of hue. An artist meanders his careful fingers across the board, picturing the first stroke of deep-magenta his brush will trail across. He is nervous, excited. He picks his brush but unsure if he’s ready to break the comfort the bleakness provides him with, he puts his brush back down. The stroke will mark a beginning: a definitive step in a direction, one that nobody can reverse.</description>
+    </item>
+    
+    <item>
       <title>Place Holder</title>
       <link>https://adityagarg.me/posts/the-figure-shortcode/</link>
       <pubDate>Fri, 24 Jan 2020 12:29:41 +0800</pubDate>
@@ -76,15 +85,6 @@ This theme has 3 CSS classes made for figure elements:
       
       <guid>https://adityagarg.me/posts/hugoisforlovers/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>About me.</title>
-      <link>https://adityagarg.me/about-aditya/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityagarg.me/about-aditya/</guid>
-      <description>This page is yet to be built Thank you very much for visiting. </description>
     </item>
     
   </channel>
