@@ -42,25 +42,9 @@ if (-1 === document.cookie.indexOf('returning=true')) {
       imageUrl: '/work-in-progress.png',
       imageHeight: 175,
       background: "#323232",
-      html: '<span style="color:#e8eef2">"Work in progress, my friend" This site is currently void of content, but won\'t be that ways forever. Write to me that you expect to see nice things here. Your expressed expectation will keep me accountable. I hope to see ya again. Have a nice day!<span>',
-      icon: 'info',
-      confirmButtonText: 'Sweet.. Lets ping Garg',
-      showCancelButton: true,
-      cancelButtonText: 'Close'
-  }).then((result) => {
-  if (result.value) {
-      window.location.href ='mailto:aditya@adityagarg.me?subject=Hey, I would like you to share updates on your website&body=';
-      let timerInterval
-        Swal.fire({
-          title: '<span style="color:#e8eef2">You are awesome!</span>',
-          html: '<span style="color:#e8eef2">Thank you very much for that thoughtful gesture.</span>',
-          imageUrl: '/star-eyes-emoji.png',
-          imageHeight: 100,
-          background: "#323232",
-          confirmButtonText: "Cool"
-        })
-  }
-});
+      html: '<span style="color:#e8eef2">Currently, this site doesn\'t have a lot of content, but I plan to update here soon. The \"blog\" section has random placeholders so please ignore them for now; I was just playing with hugo. You can check out my about-me page, as I updated that recently. I hope to see ya again in future!<span>',
+      confirmButtonText: 'Cool',
+  })
   document.cookie = 'returning=true';
 }
 // Alert Box Code ENDS; documentation - https://sweetalert2.github.io/
