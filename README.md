@@ -1,4 +1,5 @@
 # Personal Website
+A minimalistic personal website.
 
 ## [Website URL](https://adityagarg.me)
 
