@@ -22,7 +22,7 @@ Some thoughts on what this place may possibly reside:
 
  - Learn to influence: It often turns out that the **mere knowledge** of an idea/concept that spins beautifully inside my head doesn't translate into my abilities to **convey** the same thought to someone else. Thus, here I may try to learn to convey ideas effectively, convincingly, and concisely. To learn to write and express thoughts such that they influence. To write to make a difference.
 
-This website currently is very young, and as of August 2020, it is void of content (this page counts?). It is built using a static site generator Hugo, and the source code is maintained completely by myself. The content on the site (including its source code) are licenced under CC BY-NC 4.0. Learn more about this licence [here](https://creativecommons.org/licenses/by-nc/4.0/).
+This website currently is very young, and as of August 2020, it is void of content (this page counts?). It is built using a static site generator Hugo, and the source code is maintained completely by myself. The content on the site (including its source code) are licenced under GNU Affero General Public License v3.0. Learn more about this licence [here](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 Feel free to drop me a "hey, I saw your website" on any of my social media handles linked at the home page and share what you think of it.
 
