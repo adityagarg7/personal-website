@@ -10,8 +10,6 @@ A minimalistic personal website.
 ## Blog Post:
 ![Blog Post Preview](https://github.com/adityagarg7/personal-website/blob/master/preview-images/blog-1.png?raw=true)
 
-![Blog Post Preview](https://github.com/adityagarg7/personal-website/blob/master/preview-images/blog-2.png?raw=true)
-
 ![Blog Post Preview](https://github.com/adityagarg7/personal-website/blob/master/preview-images/blog-3.png?raw=true)
 ## About Me Page:
 ![About Me Preview](https://github.com/adityagarg7/personal-website/blob/master/preview-images/about-me.png?raw=true)
